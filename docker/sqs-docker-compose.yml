@@ -1,0 +1,9 @@
+version: "3"
+services:
+  sqs:
+    image: localstack/localstack:latest
+    ports:
+      - "9324:4566"
+      - "9325:4566"
+
+
